@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Temperature Converter</h1>
+
+        <div class="box">
+            <p>
+                <label for="">In Celsius</label>
+                <input type="number" name="Celsius" oninput="convertThis(this.value)" id="Celsius" placeholder="Type here..." />
+            </p>
+            <p>
+                <label for="">In Fahrenheit</label>
+                <input type="number" name="Fahrenheit" oninput="convertThis(this.value)" id="Fahrenheit" placeholder="Type here..." />
+            </p>
+            <p>
+                <label for="">In Kelvin</label>
+                <input type="number" name="Kelvin" oninput="convertThis(this.value)" id="Kelvin" placeholder="Type here..." />
+            </p>
+        </div>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
